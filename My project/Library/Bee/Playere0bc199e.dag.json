@@ -528,17 +528,17 @@
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
+        "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "D:/Github/MMMG/MMMG2/MMMG2/My project/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "D:/Github/MMMG/MMMG2/MMMG2/My project/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
-        "D:/Github/MMMG/MMMG2/MMMG2/My project/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
         "D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
         "D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
         "D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
@@ -1488,18 +1488,6 @@
       "DebugActionIndex": 90
     },
     {
-      "Annotation": "CopyFiles Build/My project_Data/Managed/PhotonRealtime.dll",
-      "DisplayName": "Copying PhotonRealtime.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll"
-      ],
-      "Outputs": [
-        "Build/My project_Data/Managed/PhotonRealtime.dll"
-      ],
-      "DebugActionIndex": 91
-    },
-    {
       "Annotation": "CopyFiles Build/My project_Data/Managed/PhotonChat.dll",
       "DisplayName": "Copying PhotonChat.dll",
       "ActionType": "CopyFiles",
@@ -1508,6 +1496,18 @@
       ],
       "Outputs": [
         "Build/My project_Data/Managed/PhotonChat.dll"
+      ],
+      "DebugActionIndex": 91
+    },
+    {
+      "Annotation": "CopyFiles Build/My project_Data/Managed/PhotonRealtime.dll",
+      "DisplayName": "Copying PhotonRealtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll"
+      ],
+      "Outputs": [
+        "Build/My project_Data/Managed/PhotonRealtime.dll"
       ],
       "DebugActionIndex": 92
     },
@@ -1584,6 +1584,18 @@
       "DebugActionIndex": 98
     },
     {
+      "Annotation": "CopyFiles Build/My project_Data/Managed/websocket-sharp.dll",
+      "DisplayName": "Copying websocket-sharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Github/MMMG/MMMG2/MMMG2/My project/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+      ],
+      "Outputs": [
+        "Build/My project_Data/Managed/websocket-sharp.dll"
+      ],
+      "DebugActionIndex": 99
+    },
+    {
       "Annotation": "CopyFiles Build/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
       "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
       "ActionType": "CopyFiles",
@@ -1593,7 +1605,7 @@
       "Outputs": [
         "Build/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Build/My project_Data/Managed/Photon3Unity3D.dll",
@@ -1604,18 +1616,6 @@
       ],
       "Outputs": [
         "Build/My project_Data/Managed/Photon3Unity3D.dll"
-      ],
-      "DebugActionIndex": 100
-    },
-    {
-      "Annotation": "CopyFiles Build/My project_Data/Managed/websocket-sharp.dll",
-      "DisplayName": "Copying websocket-sharp.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/Github/MMMG/MMMG2/MMMG2/My project/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
-      ],
-      "Outputs": [
-        "Build/My project_Data/Managed/websocket-sharp.dll"
       ],
       "DebugActionIndex": 101
     },
@@ -2736,18 +2736,6 @@
       "DebugActionIndex": 194
     },
     {
-      "Annotation": "CopyFiles Build/My project_Data/Managed/PhotonRealtime.pdb",
-      "DisplayName": "Copying PhotonRealtime.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
-      ],
-      "Outputs": [
-        "Build/My project_Data/Managed/PhotonRealtime.pdb"
-      ],
-      "DebugActionIndex": 195
-    },
-    {
       "Annotation": "CopyFiles Build/My project_Data/Managed/PhotonChat.pdb",
       "DisplayName": "Copying PhotonChat.pdb",
       "ActionType": "CopyFiles",
@@ -2756,6 +2744,18 @@
       ],
       "Outputs": [
         "Build/My project_Data/Managed/PhotonChat.pdb"
+      ],
+      "DebugActionIndex": 195
+    },
+    {
+      "Annotation": "CopyFiles Build/My project_Data/Managed/PhotonRealtime.pdb",
+      "DisplayName": "Copying PhotonRealtime.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Github/MMMG/MMMG2/MMMG2/My project/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
+      ],
+      "Outputs": [
+        "Build/My project_Data/Managed/PhotonRealtime.pdb"
       ],
       "DebugActionIndex": 196
     },
